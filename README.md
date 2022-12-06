@@ -7,26 +7,24 @@
 <br>
 
 ## PointAPI Command
-|**Command** | **Description** | **Aliases** | **Permission** |
-| -- | -- |
-|**/givepoint** | **Allows player to give point to others** | **/givepoint `<player>` `<amount>`** | **OP** |
-| -- | -- |
-|**/mypoint** | **Allows player to see his/her point** | **/mypoint** | **DEFAULT** |
-| -- | -- |
-|**/setpoint** | **Allows to set player's point** | **/setpoint `<player>` `<amount>`** | **OP** |
-| -- | -- |
-|**/setlangpoint** | **Allows player to set his/her language** | **/setlangpoint `<language>`** | **OP** |
-| -- | -- |
-|**/seepoint** | **Allows player to see others' point** | **/seepoint `<player>`** | **OP** |
-| -- | -- |
-|**/toppoint** | **Allows player to see top point list** | **/toppoint** | **DEFAULT** |
-| -- | -- |
-|**/mystatuspoint** | **Allows player to see his/her financial status** | **/mystatuspoint** | **OP** |
-| -- | -- |
-|**/takepoint** | **Allows player to take point from others** | **/takepoint `<player>` `<amount>`** | **OP** |
-| -- | -- |
-|**/paypoint** | **Allows player to pay to someone** | **/paypoint `<player>` `<amount>`** | **DEFAULT** |
-| -- | -- |
+| Default command | Parameter | Description | Default Permission |
+
+| :-----: | :-------: | :---------: | :-------: |
+
+| /mypoint | | Shows your money | `All` |
+
+| /toppoint | `<page>` | Shows server's top money | `All` |
+
+| /setpoint | `<player>` `<point>` | Sets `<player>`'s money to `<money>` | `OP` `Console` |
+
+| /givepoint | `<player>` `<point>` | Gives `<point>` `<player>` | `OP` `Console` |
+
+| /takepoint | `<player>` `<point>` | Takes `<point>` from `<player>` | `OP` `Console` |
+
+| /seepoint | `<player>` | Shows `<player>`'s point | `All` |
+
+| /mystatus | | Shows your point status | `All` |
+| /paypoint | | Transfer `<points>` to other `<players>` | | `All`|
 
 ## For Developers
 
