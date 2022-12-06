@@ -28,4 +28,4 @@ provider-settings:
   port: 3306
   user: onebone
   password: hello_world
-  db: coinapi
+  db: pointapi
