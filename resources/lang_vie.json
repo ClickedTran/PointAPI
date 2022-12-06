@@ -1,0 +1,67 @@
+{
+    "language": "vie",
+    "commands": {
+        "mypoint": {
+            "usage": "/mypoint",
+            "description": "Xem số Point của bạn"
+        },
+        "toppoint": {
+            "usage": "/toppoint [page]",
+            "description": "Xem top Point của server."
+        },
+        "setpoint": {
+            "usage": "/setpoint <player> <amount>",
+            "description": "Chỉnh số Point cho 1 người chơi"
+        },
+        "seepoint": {
+            "usage": "/seepoint <player>",
+            "description": "Xem số Point của người chơi khác"
+        },
+        "givepoint": {
+            "usage": "/givepoint <player> <amount>",
+            "description": "Tặng Point cho 1 người chơi"
+        },
+        "takepoint": {
+            "usage": "/takepoint <player> <amount>",
+            "description": "Lấy Point của 1 người chơi"
+        },
+        "paypoint": {
+            "usage": "/paypoint <player> <amount>",
+            "description": "Tặng Point cho 1 người chơi khác"
+        },
+        "setlangpoint": {
+            "usage": "/setlangpoint <language>",
+            "description": "Đặt ngôn ngữ cho Plugin này"
+        },
+        "mystatuspoint": {
+            "usage": "/mystatuspoint",
+            "description": "Xem tình trạng Point của bạn"
+        }
+    },
+    "language-set": "§l§b Đã chọn %1 là ngôn ngữ",
+    "request-cancelled": "§l§aYêu cầu của bạn đã bị hủy",
+    "player-not-connected": "§a§lNgười chơi tên §e%1 hiện không có trực tuyến.",
+    "player-never-connected": "§l§aNgười chơi tên §e%1 không tìm thấy trong server.",
+    "toppoint-tag": "§l§6❖§a TOP Point §bTrang §e%1§f/§c%2§d ❄",
+    "toppoint-format": "§l§b[§l§e%1§ ]§a %2§c ↣§e %3§d Point",
+    "pay-failed": "§l§aBạn không có đủ Point để chuyển",
+    "pay-success": "§l§aBạn đã chuyển %1 Point cho %2",
+    "point-paid": "§l§aNgười chơi %1 đã gửi %2 Point cho bạn.",
+    "takepoint-must-be-number": "§l§aSố lượng phải là số",
+    "takepoint-invalid-number": "§l§aSố không hợp lệ",
+    "takepoint-player-lack-of-point": "§l§e%1§a không đủ §e%MONETARY_UNIT%%2 %1§a Point:§e %MONETARY_UNIT%%3",
+    "takepoint-point-taken": "§l§aPoint của bạn đã bị tịch thu: %1 Point",
+    "takepoint-took-point": "§l§aĐã tịch thu %2 Point của người chơi %1",
+    "takepoint-failed": "§l§aBạn không thể lấy Point từ người này",
+    "givepoint-must-be-number": "§l§aSố Point phải là số",
+    "givepoint-invalid-number": "§l§aSai số",
+    "givepoint-point-given": "§l§aBạn đã nhận được: %1 §ePoint",
+    "givepoint-gave-point": "§l§aĐã tặng %1 Point cho người chơi %2",
+    "seepoint-seepoint": "§l§aNgười chơi %1 hiện đang có: %2 §ePoint",
+    "setpoint-setpoint": "§l§aNgười chơi %1's đã được chỉnh Point thành %2 §ePoint",
+    "setpoint-set": "§l§aPoint của bạn đã được đặt lại thành: %1 §ePoint",
+    "setpoint-failed": "§l§aKhông thể đặt Point do lỗi không xác định",
+    "setpoint-invalid-number": "§l§a %MONETARY_UNIT%%1 §cPhải là một số",
+    "mypoint-mypoint": "§l§aPoint của bạn: %1 Point",
+    "mystatus-show": "§l§aTrạng thái Point của bạn: %1%"
+}
