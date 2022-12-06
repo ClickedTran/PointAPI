@@ -1,14 +1,15 @@
+
 ## General 
 
-|**Plugins** | **PointAPI** |
 
-| -- | -- |
+| **Plugin** | **PointAPI** |
+| :-----: | :-----: |
+| **API** | **4.0.0** |
 
-|**API** | **4.0.0** |
 
-<br>
+## Feature
 
-That is new currency unit for PocketMine beyond EconomyAPI 
+- That is new currency unit for PocketMine beyond EconomyAPI 
 
 <br>
 
@@ -23,15 +24,17 @@ That is new currency unit for PocketMine beyond EconomyAPI
 | /setlangpoint | Set language for plugin | /setlangpoint | `OP` `Console` |
 | /takepoint | Take `point` from `player` | /takepoint `<player>` `<point>` | `OP` `Console` |
 | /seepoint | See your or other player's points | /seepoint `<player>` | `OP` `Console` |
+
+
 ## For Developers
 
-You can access to EconomyAPI using `EconomyAPI::getInstance()`
+You can access to PointAPI using `PointAPI::getInstance()`
 
 Basic Usage:
 
 ```php
 
-EconomyAPI::getInstance()->addMoney($player, $amount);
+PointAPI::getInstance()->addPoint($player, $amount);
 
 ```
 
@@ -39,11 +42,11 @@ Currency specified:
 
 ```php
 
-$api = EconomyAPI::getInstance();
+$api = PointAPI::getInstance();
 
 $currency = $api->getDefaultCurrency();
 
-$api->addMoney($player, $amount, $currency);
+$api->addPoint($player, $amount, $currency);
 
 ```
 
