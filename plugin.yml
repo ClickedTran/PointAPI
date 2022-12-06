@@ -1,0 +1,42 @@
+---
+name: PointAPI
+main: onebone\pointapi\PointAPI
+api:
+- 4.0.0
+version: 3.0.1
+author: onebone , ClickedTran
+permissions:
+  pointapi.*:
+    default: op
+    description: Allows to control all of functions in PointAPI
+  pointapi.command.*:
+    default: op
+    description: Allows to use all of commands in PointAPI
+  pointapi.command.setpoint:
+    default: op
+    description: Allows to set player's point
+  pointapi.command.mypoint:
+    description: Allows player to see his/her point
+    default: true
+  pointapi.command.givepoint:
+    description: Allows player to give point to others
+    default: op
+  pointapi.command.paypoint:
+    description: Allows player to pay to someone
+    default: true
+  pointapi.command.seepoint:
+    description: Allows player to see others' point
+    default: true
+  pointapi.command.setlangpoint:
+    description: Allows player to set his/her language
+    default: op
+  pointapi.command.toppoint:
+    description: Allows player to see top point list
+    default: true
+  pointapi.command.mystatuspoint:
+    description: Allows player to see his/her financial status
+    default: op
+  pointapi.command.takepoint:
+    description: Allows player to take point from others
+    default: op
+...
