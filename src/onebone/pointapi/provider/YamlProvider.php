@@ -128,7 +128,7 @@ class YamlProvider implements Provider{
 
         if(isset($this->point["point"][$player])){
             $this->point["point"][$player] -= $amount;
-            $this->point["point"][$player] = round($this->coin["point"][$player], 2);
+            $this->point["point"][$player] = round($this->point["point"][$player], 2);
             return true;
         }
         return false;
