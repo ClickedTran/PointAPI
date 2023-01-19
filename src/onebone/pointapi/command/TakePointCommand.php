@@ -48,7 +48,7 @@ class TakePointCommand extends Command{
         $result = $this->plugin->reducePoint($player, $amount);
         switch($result){
             case PointAPI::RET_INVALID:
-            $sender->sendMessage($this->plugin->getMessage("takepoint-player-lack-of-point", [$player, $amount, $this->plugin->myCoin($player)], $sender->getName()));
+            $sender->sendMessage($this->plugin->getMessage("takepoint-player-lack-of-point", [$player, $amount, $this->plugin->myPoint($player)], $sender->getName()));
             break;
             case PointAPI::RET_SUCCESS:
             $sender->sendMessage($this->plugin->getMessage("takepoint-took-point", [$player, $amount], $sender->getName()));
