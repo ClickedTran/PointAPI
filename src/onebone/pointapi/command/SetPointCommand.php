@@ -41,7 +41,7 @@ class SetPointCommand extends Command{
         $result = $this->plugin->setPoint($player, $amount);
         switch($result){
             case PointAPI::RET_INVALID:
-            $sender->sendMessage($this->plugin->getMessage("setcoin-invalid-number", [$amount], $sender->getName()));
+            $sender->sendMessage($this->plugin->getMessage("setpoint-invalid-number", [$amount], $sender->getName()));
             break;
             case PointAPI::RET_NO_ACCOUNT:
             $sender->sendMessage($this->plugin->getMessage("player-never-connected", [$player], $sender->getName()));
