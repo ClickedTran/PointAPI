@@ -50,5 +50,13 @@ $api->addPoint($player, $amount, $currency);
 
 ```
 
+## Download
+- Download `PointAPI 5.0.0` in <a href="https://github.com/Clickedtran/PointAPI_4.0.0/blobs/archie/releases/tag/5.0.0">here</a>
+
+## Install
+>- Step 1: Download file `PointAPI`
+>- Step 2: Drag or move files in `plugin` folder
+>- Step 3: Restart server and use
+
 
 
