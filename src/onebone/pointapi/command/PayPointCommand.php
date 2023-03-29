@@ -8,7 +8,7 @@ use pocketmine\utils\TextFormat;
 use pocketmine\player\Player;
 use pocketmine\Server;
 use onebone\pointapi\PointAPI;
-use onebone\pointapi\event\pointapj\PayPointEvent;
+use onebone\pointapi\event\point\PayPointEvent;
 
 class PayPointCommand extends Command{
     private $plugin;
