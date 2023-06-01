@@ -50,8 +50,6 @@ $api->addPoint($player, $amount, $currency);
 
 ```
 
-## Download
-- Download `PointAPI 5.0.0` in <a href="https://github.com/Clickedtran/PointAPI/releases/download/5.0.0/PointAPI_5.0.0.zip">here</a>
 
 ## Install
 >- Step 1: Download file `PointAPI`
